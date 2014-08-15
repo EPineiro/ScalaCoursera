@@ -1,0 +1,55 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(C:\Users\EPineiro\Desktop\Scala Course\forcomp\src\main\scala\common\package.scala, C:\Users\EPineiro\Desktop\Scala Course\forcomp\src\main\scala\forcomp\Anagrams.scala, C:\Users\EPineiro\Desktop\Scala Course\forcomp\src\main\scala\forcomp\package.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mModified external sources: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(C:\Users\EPineiro\Desktop\Scala Course\forcomp\src\main\scala\common\package.scala, C:\Users\EPineiro\Desktop\Scala Course\forcomp\src\main\scala\forcomp\Anagrams.scala, C:\Users\EPineiro\Desktop\Scala Course\forcomp\src\main\scala\forcomp\package.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\EPineiro\Desktop\Scala Course\forcomp\src\main\scala\common\package.scala, C:\Users\EPineiro\Desktop\Scala Course\forcomp\src\main\scala\forcomp\Anagrams.scala, C:\Users\EPineiro\Desktop\Scala Course\forcomp\src\main\scala\forcomp\package.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 3 Scala sources to C:\Users\EPineiro\Desktop\Scala Course\forcomp\target\scala-2.10\classes...[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 769fafd1, interfacing (CompilerInterface) with Scala compiler version 2.10.2[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-feature[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	C:\Users\EPineiro\Desktop\Scala Course\forcomp\target\scala-2.10\classes[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\classes;C:\Users\EPineiro\.sbt\boot\scala-2.10.2\lib\scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	C:\Users\EPineiro\Desktop\Scala Course\forcomp\target\scala-2.10\classes[0m
+[0m[[33mwarn[0m] [0mC:\Users\EPineiro\Desktop\Scala Course\forcomp\src\main\scala\forcomp\Anagrams.scala:36: postfix operator toList should be enabled[0m
+[0m[[33mwarn[0m] [0mby making the implicit value scala.language.postfixOps visible.[0m
+[0m[[33mwarn[0m] [0mThis can be achieved by adding the import clause 'import scala.language.postfixOps'[0m
+[0m[[33mwarn[0m] [0mor by setting the compiler option -language:postfixOps.[0m
+[0m[[33mwarn[0m] [0mSee the Scala docs for value scala.language.postfixOps for a discussion[0m
+[0m[[33mwarn[0m] [0mwhy the feature should be explicitly enabled.[0m
+[0m[[33mwarn[0m] [0m  def wordOccurrences(w: Word): Occurrences =  (w groupBy((element: Char) => element.toLower) map { case (c, l) => (c, l.size)} toList) sorted[0m
+[0m[[33mwarn[0m] [0m                                                                                                                                ^[0m
+[0m[[33mwarn[0m] [0mC:\Users\EPineiro\Desktop\Scala Course\forcomp\src\main\scala\forcomp\Anagrams.scala:36: postfix operator sorted should be enabled[0m
+[0m[[33mwarn[0m] [0mby making the implicit value scala.language.postfixOps visible.[0m
+[0m[[33mwarn[0m] [0m  def wordOccurrences(w: Word): Occurrences =  (w groupBy((element: Char) => element.toLower) map { case (c, l) => (c, l.size)} toList) sorted[0m
+[0m[[33mwarn[0m] [0m                                                                                                                                        ^[0m
+[0m[[33mwarn[0m] [0mC:\Users\EPineiro\Desktop\Scala Course\forcomp\src\main\scala\forcomp\Anagrams.scala:94: postfix operator toList should be enabled[0m
+[0m[[33mwarn[0m] [0mby making the implicit value scala.language.postfixOps visible.[0m
+[0m[[33mwarn[0m] [0m        index <- ((0 to occurrences.head._2) toList)[0m
+[0m[[33mwarn[0m] [0m                                             ^[0m
+[0m[[33mwarn[0m] [0mC:\Users\EPineiro\Desktop\Scala Course\forcomp\src\main\scala\forcomp\Anagrams.scala:111: postfix operator toList should be enabled[0m
+[0m[[33mwarn[0m] [0mby making the implicit value scala.language.postfixOps visible.[0m
+[0m[[33mwarn[0m] [0m  def subtract(x: Occurrences, y: Occurrences): Occurrences = ((y foldLeft x.toMap)((acc: Map[Char, Int], p:(Char, Int)) => acc updated(p._1, acc(p._1) - p._2)) toList) filterNot {case(x, y) => y == 0}[0m
+[0m[[33mwarn[0m] [0m                                                                                                                                                                 ^[0m
+[0m[[33mwarn[0m] [0mfour warnings found[0m
+[0m[[0mdebug[0m] [0mScala compilation took 9.318305108 s[0m
+[0m[[0mdebug[0m] [0mStep 2 changed sources and immdediate dependencies:[0m
+[0m[[0mdebug[0m] [0m	Set(C:\Users\EPineiro\Desktop\Scala Course\forcomp\src\main\scala\common\package.scala, C:\Users\EPineiro\Desktop\Scala Course\forcomp\src\main\scala\forcomp\Anagrams.scala, C:\Users\EPineiro\Desktop\Scala Course\forcomp\src\main\scala\forcomp\package.scala)[0m
+[0m[[0mdebug[0m] [0mNon-trivial strongly connected components: [0m
+[0m[[0mdebug[0m] [0m	[0m
+[0m[[0mdebug[0m] [0mStep 2 invalidated sources:[0m
+[0m[[0mdebug[0m] [0m	Set(C:\Users\EPineiro\Desktop\Scala Course\forcomp\src\main\scala\forcomp\Anagrams.scala, C:\Users\EPineiro\Desktop\Scala Course\forcomp\src\main\scala\forcomp\package.scala, C:\Users\EPineiro\Desktop\Scala Course\forcomp\src\main\scala\common\package.scala)[0m
